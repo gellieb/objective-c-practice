@@ -26,5 +26,10 @@
 + Add to existing array :
     + 1. Assign entirely new array to variable. No longer need the ```NSArray *``` type specifier because previously defined.
     + 2. Use ```NSMutableArray```
-+ 
+
+###```NSDictionary``` (like hash)
++ Create hash : ```NSDictionary *people = @{@"name": @"Angel", @"surname": @"Baek", @"age": @3};```
++ Accessing values : ```people[@"name"];
+
+
     
