@@ -31,5 +31,22 @@
 + Create hash : ```NSDictionary *people = @{@"name": @"Angel", @"surname": @"Baek", @"age": @3};```
 + Accessing values : ```people[@"name"];
 
+##Perform actions
+### Calling a method/Sending a message
++ need at least two things - object and message name ```[objectName messageName];```
++ Obj-c has built in objects like ```NSString```, ```NSNumber```, NSArray``` can send multiple messages:
+    + ```description```
+        + always returns ```NSString``` represents the contents of the object that you passed the message to
+        + pass message to ```NSString``` = characters in that string
+        + pass message to ```NSArray``` = string containing all the values in that array
+        + ex: ```NSLog(@"%@", [objectName description])
+###Store the results of message in another variable
+``` 
+NSArray *foods = @[@"tacos", @"burgers"]
+NSString *result = [foods description];
+
+NSLog(@"%@", result)
+```
+
 
     
