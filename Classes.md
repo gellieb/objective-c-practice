@@ -103,5 +103,3 @@ _Breakdown_
 
     1. ```-(void) speak;``` stays exactly the same in the implementation file
     2. directly followed by ```{}``` which wraps the code that will be executed every time the ```speak``` message is sent to a ```ClassName``` object.
-
-
